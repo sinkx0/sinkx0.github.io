@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>蘑菇田建设记录</title>
+    <link href="/2025/05/11/%E8%98%91%E8%8F%87%E7%94%B0%E5%BB%BA%E8%AE%BE%E8%AE%B0%E5%BD%95/"/>
+    <url>/2025/05/11/%E8%98%91%E8%8F%87%E7%94%B0%E5%BB%BA%E8%AE%BE%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h3 id="2025-5-10：网站搭建，修改主题"><a href="#2025-5-10：网站搭建，修改主题" class="headerlink" title="2025.5.10：网站搭建，修改主题"></a>2025.5.10：网站搭建，修改主题</h3><p>考虑网络因素，我在 Github 和 Gitee 平台中选择了后者。然而进行到最后一步时发现 Gitee Pages 已停止提供服务，我只好转而去到Github，可大家没有梯子就无法访问呀。总之将来不得不自己购买域名了…先记在小本子上！</p><p>接着挑选主题，我的纠结症犯了，又去问阿C（我的ChatGPT）要建议。感谢阿C，我最后选定了 Fluid 这个主题，用下来觉得文档写得不错！期间纠结了一下是否要改为 Butterfly，但个人认为文档目录不够清晰，暂时不想花太多时间在主题上，索性就先使用Fluid了。反正有空都可以改。</p><hr><h3 id="2025-5-11：增加网站数据查看"><a href="#2025-5-11：增加网站数据查看" class="headerlink" title="2025.5.11：增加网站数据查看"></a>2025.5.11：增加网站数据查看</h3><p>实际上这是个很简单的功能，再实际上建一个自己的网站如此简单，当然我利用了现成的框架和主题，敲敲命令行看看文档配置就好。但是我还是想问，我之前为什么不玩，自娱自乐很爽啊！</p><p>说到正题，我使用 <a href="https://console.leancloud.cn/">leancloud</a> 平台的免费功能实现了网站数据查看，即可查看单篇文章及本网站的阅读数据和阅读人次。具体教程可自行查找，主要需要app_id、app_key、server_url这三个参数，其中server_url就在 app_id和app_key 同页面的下方，名为REST API 服务器地址。</p><p>最后，在更换头像和网站图标时遇到了一点小问题。首先要知道，每次执行 hexo clean 时，Hexo 会删除 public 文件夹中的所有内容，执行 hexo g 时，会将 source 文件夹中的资源（例如图片、文章等）编译、复制到 public文件夹。而我一开始将图片放在了 public 文件夹下，所以毫无作用。后来放到 source 下后又因为图片文件名为 avatar.png（和主题默认头像文件名相同）导致头像设置无效，猜测 Hexo 构建后会被“恢复”成默认头像。结论：设置一个不同的文件名放置在 source&#x2F;img 文件夹下，再修改配置。</p><hr><p>后续更新计划为：搬运一些博客和随笔；丰富个人资讯如公众号、微信号；增加评论功能；购买自己的域名等。<br>未完待续…</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机</tag>
+      
+      <tag>博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/05/10/hello-world/"/>
     <url>/2025/05/10/hello-world/</url>
