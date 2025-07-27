@@ -103,4 +103,4 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/sinkx0/sinkx0.github.io.git
-  branch: main
+  branch: blog
