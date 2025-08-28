@@ -105,3 +105,4 @@ deploy:
   repo: https://github.com/sinkx0/sinkx0.github.io.git
   branch: blog
   cname: sinkx0.top
+  keep: true
